@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-admin-boilerplate",
+  "version": "1.0.0",
+  "description": "Cloudflare Admin Boilerplate - Vite for Frontend, Hono for Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "tailwind",
+    "typescript",
+    "hono",
+    "cloudflare"
+  ],
+  "author": "Alchie Tagudin",
+  "license": "ISC"
+}
