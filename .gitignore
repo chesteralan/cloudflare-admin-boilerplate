@@ -22,3 +22,5 @@ yarn-error.log*
 # Others
 *.log
 node_modules
+
+backend/dist

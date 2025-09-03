@@ -1,7 +1,7 @@
 name = "cloudflare-admin-backend"
-type = "javascript"
 main = "src/index.ts"
 compatibility_date = "2025-09-03"
+compatibility_flags = ["nodejs_compat"]
 
 [build]
 command = "yarn workspace backend run build"
