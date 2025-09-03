@@ -2,7 +2,11 @@
   "name": "cloudflare-admin-boilerplate",
   "version": "1.0.0",
   "description": "Cloudflare Admin Boilerplate - Vite for Frontend, Hono for Backend",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,14 @@
     "cloudflare"
   ],
   "author": "Alchie Tagudin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.19.1",
+    "dotenv": "^17.2.2",
+    "hono": "^4.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "wrangler": "^4.33.2"
+  }
 }
