@@ -8,6 +8,9 @@
     "backend"
   ],
   "scripts": {
+    "dev:frontend": "yarn workspace frontend dev",
+    "dev:backend": "yarn workspace backend dev",
+    "dev": "yarn dev:frontend & yarn dev:backend",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
@@ -23,6 +26,7 @@
   "license": "ISC",
   "dependencies": {
     "@hono/node-server": "^1.19.1",
+    "@radix-ui/react-slot": "^1.2.3",
     "dotenv": "^17.2.2",
     "hono": "^4.9.6"
   },

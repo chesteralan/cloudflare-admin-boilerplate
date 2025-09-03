@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-slate-50 p-8">
+    <div className="min-h-screen bg-slate-50">
       <h1 className="text-3xl font-bold mb-6">Admin Dashboard</h1>
       <div className="space-x-4">
         <Button variant="default">Default</Button>
