@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-admin-frontend",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "Frontend for Cloudflare Admin Boilerplate using Vite, React, TailwindCSS, and TypeScript",
   "private": true,
