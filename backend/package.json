@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-admin-backend",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Backend service for Cloudflare Admin Boilerplate using Hono on Cloudflare Workers",
   "main": "src/index.ts",
@@ -8,16 +8,23 @@
     "start": "wrangler dev",
     "deploy": "wrangler deploy",
     "lint": "eslint . --ext .ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "hono": "^4.6.8"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240925.0",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2",
     "typescript": "^5.6.2",
-    "wrangler": "^3.78.7",
-    "eslint": "^9.12.0"
+    "wrangler": "^3.78.7"
   },
   "author": "Alchie Tagudin",
   "license": "ISC"
