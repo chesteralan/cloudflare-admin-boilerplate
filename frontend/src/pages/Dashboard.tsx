@@ -1,13 +1,18 @@
-import { Button } from '@/components/ui/button';
+import Header from '@/components/Header';
+import Sidebar from '@/components/Sidebar';
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-slate-50">
-      <h1 className="text-3xl font-bold mb-6">Admin Dashboard</h1>
-      <div className="space-x-4">
-        <Button variant="default">Default</Button>
-        <Button variant="secondary">Secondary</Button>
-        <Button variant="destructive">Destructive</Button>
+    <div className="flex h-screen bg-gray-100">
+      <Sidebar />
+      <div className="flex-1 flex flex-col">
+        <Header />
+        <main className="flex-1 p-6">
+          <h2 className="text-2xl font-semibold mb-4">Welcome to your Dashboard</h2>
+          <div className="p-4 bg-white border rounded-lg">
+            <p>This is where your main content will go.</p>
+          </div>
+        </main>
       </div>
     </div>
   );
