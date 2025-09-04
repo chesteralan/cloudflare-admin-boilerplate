@@ -18,7 +18,6 @@
     "lint:frontend": "npm run lint --workspace=frontend",
     "lint:backend": "npm run lint --workspace=backend",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
     "reset:packages": "rm -rf node_modules && rm -rf frontend/node_modules && rm -rf backend/node_modules && npm install"
   },
   "keywords": [
