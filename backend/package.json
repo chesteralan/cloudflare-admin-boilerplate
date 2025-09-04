@@ -8,8 +8,7 @@
     "start": "wrangler dev",
     "deploy": "wrangler deploy",
     "lint": "eslint . --ext .ts",
-    "build": "tsc",
-    "prepare": "husky install"
+    "build": "tsc"
   },
   "dependencies": {
     "hono": "^4.6.8"

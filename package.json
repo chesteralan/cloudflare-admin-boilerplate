@@ -8,18 +8,18 @@
     "backend"
   ],
   "scripts": {
-    "dev": "yarn dev:frontend & yarn dev:backend",
-    "dev:backend": "yarn workspace backend dev",
-    "dev:frontend": "yarn workspace frontend dev",
-    "build": "yarn build:frontend && yarn build:backend",
-    "build:frontend": "yarn workspace frontend build",
-    "build:backend": "yarn workspace backend build",
-    "lint": "yarn lint:frontend && yarn lint:backend",
-    "lint:frontend": "yarn workspace frontend lint",
-    "lint:backend": "yarn workspace backend lint",
+    "dev": "npm run dev:frontend & npm run dev:backend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "lint": "npm run lint:frontend && npm run lint:backend",
+    "lint:frontend": "npm run lint --workspace=frontend",
+    "lint:backend": "npm run lint --workspace=backend",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "reset:packages": "rm -rf node_modules && rm -rf frontend/node_modules && rm -rf backend/node_modules && yarn install"
+    "reset:packages": "rm -rf node_modules && rm -rf frontend/node_modules && rm -rf backend/node_modules && npm install"
   },
   "keywords": [
     "vite",
