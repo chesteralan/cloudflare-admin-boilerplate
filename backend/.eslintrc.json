@@ -14,5 +14,7 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  "rules": {}
+  "rules": {
+    "react-refresh/only-export-components": "off"
+  }
 }

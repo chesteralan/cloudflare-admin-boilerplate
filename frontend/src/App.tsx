@@ -1,8 +1,10 @@
-import Login from './pages/Login';
-import './App.css'
+import Dashboard from "./app/dashboard"
 
 function App() {
-  return <Login />;
+
+  return (
+     <Dashboard />
+  )
 }
 
 export default App
